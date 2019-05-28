@@ -1,4 +1,4 @@
-# Mediate
+# Mediate(https://nyt-unmock.herokuapp.com/)
 
 Mediate is the world's most awesome media aggregator! You have been tasked to build it for a cohort of demanding clients that want to find the best movies and music to promote their brands.  To build and test the app, we'll use [`unmock`](https://githutb.com/unmock/unmock-js).
 
@@ -15,3 +15,5 @@ We will be building a web app that accepts a search query and lists movies, phot
 This app will communicate via a custom API to our backend, which will aggregate requests to the above services.
 
 Happy hacking!
+
+[Demo](https://nyt-unmock.herokuapp.com/)
