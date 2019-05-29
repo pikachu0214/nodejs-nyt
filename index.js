@@ -1,38 +1,38 @@
 //nyt article metadata
-fetch('http://localhost:4000/metadata')
+fetch('https://nyt-unmock.herokuapp.com/metadata')
     .then(req => req.json())
     .then(res => console.log(res))
 
 
 //nyt article metadata
-fetch('http://localhost:4000/article')
+fetch('https://nyt-unmock.herokuapp.com/article')
     .then(req => req.json())
     .then(res => console.log(res))
 
 //nyt bestseller
-fetch('http://localhost:4000/list')
+fetch('https://nyt-unmock.herokuapp.com/list')
     .then(req => req.json())
     .then(res => console.log(res))
 
 
 //nyt most popular by emailed
-fetch('http://localhost:4000/email')
+fetch('https://nyt-unmock.herokuapp.com/email')
     .then(req => req.json())
     .then(res => console.log(res))
 
 
 //nyt most popular by shared
-fetch('http://localhost:4000/shared')
+fetch('https://nyt-unmock.herokuapp.com/shared')
     .then(req => req.json())
     .then(res => console.log(res))
 
 //nyt most popular by viewed
-fetch('http://localhost:4000/viewed')
+fetch('https://nyt-unmock.herokuapp.com/viewed')
     .then(req => req.json())
     .then(res => console.log(res))
 
 //nyt reviews
-fetch('http://localhost:4000/reviews')
+fetch('https://nyt-unmock.herokuapp.com/reviews')
     .then(req => req.json())
     .then(res => console.log(res))
 
